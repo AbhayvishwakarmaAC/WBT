@@ -1,0 +1,61 @@
+.table{
+            display:flex;
+            justify-content:center;
+            align-content:center;
+        }
+
+
+
+            .login{
+                height: 500px;
+                width:  800px;
+                background:rgb(152, 48, 48);
+                border-radius:100px;
+                text-align:center;
+                align-content: center;
+                color:white
+            }
+            .username{
+                height:50px;
+                border-radius:15px;
+                border: 5px solid black;
+                background:rgba(255, 255, 255, 0.568);
+                color:rgb(79, 20, 6);
+            }
+             .password{
+                height:50px;
+                border-radius:15px;
+                border: 5px solid black;
+                background:rgba(255, 255, 255, 0.568);
+                color:rgb(79, 20, 6);
+                margin-top:20px;
+             }
+             .loginbtn{
+                height:30px;
+                width:100px;
+                background:rgb(133, 6, 16);
+                border-radius:15px;
+                margin-top:10px;
+                color:wheat
+             }
+             .needHelp{
+                background:rgb(228, 228, 171);
+                margin-top:10px;
+             }
+             .fotgetPass{
+                background:rgb(228, 228, 171);
+               margin-right:10px;
+             }
+
+            .Onboard{
+                width: 500px;
+                margin-left:34%;
+                background:rgba(239, 241, 232, 0.6);
+                display:flex;
+                justify-content:center;
+            }
+            .button{
+                margin-top:20px;
+                display:flex;
+                justify-content:center;
+            }

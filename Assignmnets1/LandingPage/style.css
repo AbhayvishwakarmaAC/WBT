@@ -1,0 +1,98 @@
+ body{
+                background:blanchedalmond;
+                margin: 0;
+                padding: 0;
+            }
+            .banner{
+            height:200px;
+           
+             background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+            ), url("bakery.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            align-content:center;
+
+            color:white;
+            text-align:center;
+
+            }    
+            .products{
+                margin-top:20px;
+                display:flex;
+                justify-content:center;
+            }
+            .product{
+                margin-left:10px;
+                margin-right:10px;
+                border: 2px solid white;
+                padding:10px;
+                background:blanchedalmond;
+                box-shadow: 3px 3px 10px gray;
+                border-radius:10px;
+            }
+            .product h3{
+                 text-decoration: underline;
+                 font-weight:100;
+            }
+            .product img{
+                display: block;
+                margin: 0 auto;
+            }
+            .product button{
+                border-radius:20px;
+                background:blanchedalmond;
+                box-shadow:3px 3px 10px gray;
+            }
+            .stepTime{
+                height:100px;
+                width:auto;
+                align-items:center;
+                padding-top:10px;
+                padding-bottom:40px;
+                background:rgb(122, 110, 91);
+                background-image: linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.5)
+                ), url("bakery.jpg");
+                color:white;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                margin-top:20px;
+                align-content:center;
+            }
+             .steps{
+                padding-left:30px;
+                padding-right:30px;
+                display:flex;
+                justify-content:center;
+             }
+            .Time{
+                padding-left:30px;
+                padding-right:30px;
+                display:flex;
+                justify-content:center;
+            }
+            .Time h3{
+               Margin-left:30px;
+                Margin-right:30px;
+            }
+            .checkoutbtn{
+                margin:20px;
+                height:70;
+                width:auto;
+                display:flex;
+                justify-content:center;
+                align-content:center;
+                text-align:center;
+            }
+            .checkout{
+                height:50px;
+                width:1000px;
+                border-radius:30px;
+            }

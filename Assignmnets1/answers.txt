@@ -1,0 +1,92 @@
+Q1.A user opens your portfolio from a link. Describe step by step what happens
+between the browser and the server, and draw a simple client–server diagram
+(hand-drawn and photographed is fine). Say where the app logic and the database
+sit.
+Ans==>
+step1:When A User Open link browser finds Server its uses the Ip Address from domain name
+step2:Browser Send A Request http request to server asking for page to load
+step3: Server Process the Request
+step4: Server Send Response
+step5: Browser then Display the Response Which is Page 
+
+Q2.Your contact form sends a visitor's message to a server. Should it use GET or POST,
+and why? What happens if method is left out? Name the status code the server
+returns on success and the family of codes that means the server failed.
+
+Ans==>
+ 
+We should use POSt because the Visitor have to Send the Data 
+if Method get out then the Form will use Default method which is GET
+200 code Indicate OK
+500-599 Code indicate Server Side Error
+
+Q3.Name the three types of CSS and say where each is written. If all three colour the
+same paragraph differently, which wins? Which type would you use for a style
+shared by four pages, and why?
+
+Ans==>
+1.internal: the CSS its Written inside Head of the Html file it is in Same HTML file Thats why Called Internal
+2.external: this is another .css file created and likns to the html file using link tag
+3. inline: it is written in line of the tag thats why it known inline
+
+Priority: Inline>Internal>External
+ If $ page have Same Style then we Will use External CSSS because It will be Easy to Link to All HTML files esily
+
+Q4.A page has <p id="intro" class="note">Hello</p>. Rules exist for *, p, .note and #intro,
+each with a different color. Which applies, and what is the full order of precedence
+from strongest to weakest?
+
+Ans==>
+#intro Apply because it have high priority
+the precedence is 
+ID > class > element > *
+
+Q5. Explain padding and margin with a small drawing of a <div> showing content,
+padding, border and margin. What does box-sizing: border-box change?
+
+
+Ans==>
+Margin: the Outer Area of div is margin
+padding: the inner area of div is padding
+box-sizing:Border-box==> except margin everythings markes Larger 
+
+
+Q6.Where does JavaScript code run, and what is the JS engine in a browser? Why is
+no compiler needed to run JavaScript? Name two things JavaScript can do on a
+web page that HTML and CSS alone cannot.
+
+Ans==> the JS co Run in browser environment, JS engine is Runtime Environment for JS
+Compiler Non needed Because it does not based on static polymorphism  
+1. Performing action based on button click
+2. Lading into Another page 
+
+
+Q7.JavaScript has no type safety. Explain what happens when you write a = 5; and
+then a = "hello";. Name the three data types you have learned so far
+
+Ans==>
+When we write a=5; and again a="hello" so a become variable of string and the a previously get deleted 
+var let const are the 3 datatypes in Js
+
+Q8.Explain the four values of the CSS position property (static, relative, absolute, fixed).
+When would you use top, left, right and bottom?
+
+Ans=>
+position:static==> the element remain in normal position in page layout it is default seeting
+relative:The element stays in the normal document flow but can be moved relative to its original position.
+abosote: The element is positioned relative to its nearest ancestor that establishes a positioning context, usually one with position: relative, absolute, fixed, or sticky.
+fixed:The element is positioned relative to the browser's viewport in the usual case. It generally stays in the same place when you scroll.
+
+Q9.A container has display: flex and three boxes with flex values of 1, 2 and 1. How is
+the width shared between the boxes? What do gap and justify-content: center do?
+
+Ans==>
+The width is divided into 4 equal parts. box 1 get 25 box 2 50 and box 3 25.
+gap: addes space between boxes
+justify-content: center: Centers the boxes horizontally along the main axis, leaving unused space on both sides.
+
+
+
+
+
+
